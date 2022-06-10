@@ -22,13 +22,13 @@ export default function MobileCountrySelector() {
   }, []);
 
   return (
-    <div className="mt-8 rounded border border-gray-200 w-full">
+    <div className="rounded border-2 border-white w-full mt-12">
       <Listbox onChange={setCountry}>
         {({open}) => {
           setTimeout(() => setListboxOpen(open));
           return (
             <>
-              <Listbox.Button className="w-full flex justify-between text-sm items-center py-5 px-7">
+              <Listbox.Button className="w-full flex justify-between text-sm items-center py-5 px-7 text-white">
                 {selectedCountry.name}
                 <ArrowIcon isOpen={open} />
               </Listbox.Button>

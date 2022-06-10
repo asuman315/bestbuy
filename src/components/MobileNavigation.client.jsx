@@ -38,7 +38,7 @@ export default function MobileNavigation({collections, isOpen, setIsOpen}) {
         </button>
         {/* Set Opening and Closing of the nav bar */}
         {isOpen ? (
-          <div className="fixed -left-0 top-0 w-full h-screen z-0 bg-secondary-10 px-4 md:px-12 py-10 opacity-90">
+          <div className="fixed -left-0 top-0 w-full h-screen z-0 bg-secondary-10 px-4 md:px-12 pt-24 opacity-90">
             <ul>
               {/* map over the collections and return each collection's title as a list item */}
               {collections.map((collection) => (
@@ -47,7 +47,7 @@ export default function MobileNavigation({collections, isOpen, setIsOpen}) {
                   key={collection.id}
                 >
                   <Link
-                    className="group py-5 text-secondary-3 flex items-center justify-between"
+                    className="uppercase py-8 text-secondary-3 flex items-center justify-between"
                     to={`/collections/${collection.handle}`}
                     onClick={() => setIsOpen(false)}
                   >
