@@ -13,6 +13,7 @@
     "preview": "shopify hydrogen preview",
     "lint": "eslint --resolve-plugins-relative-to . --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx src",
     "test": "WATCH=true vitest",
+    "serve": "node --enable-source-maps dist/server",
     "start": "node --enable-source-maps dist/server",
     "test:ci": "yarn build --target node && vitest run"
   },
