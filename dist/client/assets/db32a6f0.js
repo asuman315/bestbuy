@@ -1,0 +1,2 @@
+import"./5c0ecc77.js";import{j as m}from"./index.78c62200.js";import"./459a0640.js";import"./a4b1cbe7.js";import"./d658131c.js";import"./2b4d78e9.js";import"./559c173a.js";import{u as e}from"./4daf791e.js";import"./2e9b5744.js";import"./c6a79924.js";import"./b6229e35.js";import"./822fbd9b.js";import"./81216b71.js";function h({money:t}){const{amount:o,currencyNarrowSymbol:r}=e(t);return m("span",{className:"line-through text-sm md:text-sm lg:text-base mr-2.5 text-secondary-4 font-bold",children:[r,o]})}export{h as default};
+//# sourceMappingURL=db32a6f0.js.map

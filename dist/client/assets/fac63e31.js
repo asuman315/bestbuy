@@ -1,0 +1,2 @@
+import{r as t,a as l}from"./index.78c62200.js";const n=t.exports.createContext(null);function p({children:u}){const[r,e]=t.exports.useState(!1),s=t.exports.useCallback(()=>{e(!0)},[e]),o=t.exports.useCallback(()=>{e(!1)},[e]),a=t.exports.useCallback(()=>{e(!r)},[e,r]),c=t.exports.useMemo(()=>({isCartOpen:r,openCart:s,closeCart:o,toggleCart:a}),[r,s,o,a]);return l(n.Provider,{value:c,children:u})}function x(){return t.exports.useContext(n)}export{p as C,x as u};
+//# sourceMappingURL=fac63e31.js.map
